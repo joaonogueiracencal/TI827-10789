@@ -11,7 +11,6 @@ public static Scanner ler = new Scanner(System.in);
     public static void main(String[] args) {
         int op;
         do{
-        
             System.out.println("Menu Conversões");
             System.out.println("1 - Comprimento");
             System.out.println("2 - Pesos");
