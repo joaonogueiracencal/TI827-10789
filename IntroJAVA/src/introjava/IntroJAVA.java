@@ -47,11 +47,19 @@ public static Scanner ler = new Scanner(System.in);
          System.out.println(peso+" (Kg) equivale a:\n"+
                  +(peso*10)+" (dg)\n"+
                  +(peso*100)+" (cg)\n"+
-                 +(peso*1000)+" (mg)\n"+
+                 +(peso*1000)+" (g)\n"+
                  +(peso/1000)+" (Ton)");
     }
 
     private static void converteMoedas() {
+         float moeda;
+         System.out.println("Insira um valor em euros");
+         moeda = ler.nextFloat();
+         System.out.println(moeda+" (€) equivale a:\n"+
+                 +(moeda*5.15)+" (R$)\n"+
+                 +(moeda)+" (USD)\n"+
+                 +(moeda*7.52)+" (HRK)\n"+
+                 +(moeda*143.24)+" (JPY)");
     }
     
 }
